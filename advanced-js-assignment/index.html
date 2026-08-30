@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Modular Restaurant App</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+      th,
+      td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: left;
+      }
+      tr {
+        cursor: pointer;
+      }
+      tr:hover {
+        background-color: #f0f0f0;
+      }
+      dialog {
+        width: 50%;
+        padding: 20px;
+        border-radius: 8px;
+      }
+      button {
+        padding: 8px 12px;
+        margin-right: 5px;
+        cursor: pointer;
+      }
+    </style>
+    <script type="module" src="main.js" defer></script>
+  </head>
+  <body>
+    <h1>Restaurants</h1>
+
+    <div>
+      <button id="filter-all">All Restaurants</button>
+      <button id="filter-sodexo">Sodexo</button>
+      <button id="filter-compass">Compass Group</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Company</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Rows generated here -->
+      </tbody>
+    </table>
+
+    <dialog>
+      <div id="modal-content"></div>
+      <button id="close-modal" style="margin-top: 20px">Close</button>
+    </dialog>
+  </body>
+</html>
