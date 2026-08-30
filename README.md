@@ -6,3 +6,6 @@
 - **AJAX:** https://users.metropolia.fi/~ayushsha/ajax-assignments/
 - **Event Handling:** https://users.metropolia.fi/~ayushsha/event-assignments/
 - **DOM:** https://users.metropolia.fi/~ayushsha/dom-assignments/
+
+* [Conditionals and Loops](https://users.metropolia.fi/~ayushsha/conditionals-and-loops)
+* [Arrays and Functions](https://users.metropolia.fi/~ayushsha/arrays-and-functions)
