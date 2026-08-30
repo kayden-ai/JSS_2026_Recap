@@ -771,22 +771,3 @@ const restaurants = [
 ];
 
 // your code here
-const table = document.querySelector('table');
-
-restaurants.forEach(restaurant => {
-  const tr = document.createElement('tr');
-
-  const nameCell = document.createElement('td');
-  nameCell.textContent = restaurant.name;
-
-  const addressCell = document.createElement('td');
-  addressCell.textContent = restaurant.address;
-
-  tr.addEventListener('click', () => {
-    console.log(`You clicked on: ${restaurant.name}`);
-  });
-
-  tr.appendChild(nameCell);
-  tr.appendChild(addressCell);
-  table.appendChild(tr);
-});
