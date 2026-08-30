@@ -11,6 +11,7 @@
       table {
         width: 100%;
         border-collapse: collapse;
+        margin-top: 10px;
       }
       th,
       td {
@@ -29,11 +30,23 @@
         padding: 20px;
         border-radius: 8px;
       }
+      button {
+        padding: 8px 12px;
+        margin-right: 5px;
+        cursor: pointer;
+      }
     </style>
     <script type="module" src="main.js" defer></script>
   </head>
   <body>
     <h1>Restaurants</h1>
+
+    <div>
+      <button id="filter-all">All Restaurants</button>
+      <button id="filter-sodexo">Sodexo</button>
+      <button id="filter-compass">Compass Group</button>
+    </div>
+
     <table>
       <thead>
         <tr>
